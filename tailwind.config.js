@@ -15,9 +15,13 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   theme: {
     colors: {
-      blue: colors.sky,
+      sky: colors.sky,
+      blue: colors.blue,
+      white: colors.white,
+      gray: colors.trueGray,
+      indigo: colors.indigo,
       red: colors.rose,
-      pink: colors.fuchsia
+      yellow: colors.amber
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

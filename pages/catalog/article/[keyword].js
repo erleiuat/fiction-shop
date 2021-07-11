@@ -1,7 +1,6 @@
 import Layout from 'components/layout'
 import Image from 'next/image'
 import Head from 'next/head'
-import fs from 'fs'
 
 export default function Article({ article }) {
   return (
@@ -43,7 +42,8 @@ export default function Article({ article }) {
 }
 
 export async function getStaticPaths() {
-  const articles = JSON.parse(fs.readFileSync('public/articleList.json'))
+  const res = await fetch(`https://scumfiction.com/shop_data/items.json`)
+  const articles = await res.json()
 
   const paths = articles.map(article => ({
     params: { keyword: article.keyword }
@@ -53,7 +53,8 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const articles = JSON.parse(fs.readFileSync('public/articleList.json'))
+  const res = await fetch(`https://scumfiction.com/shop_data/items.json`)
+  const articles = await res.json()
   const article = articles.filter(
     article => article.keyword === params.keyword
   )[0]

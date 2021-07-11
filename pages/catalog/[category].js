@@ -1,4 +1,3 @@
-import fs from 'fs'
 import ItemList from 'components/catalog/itemList'
 
 export default function Category({ articles }) {
@@ -6,9 +5,9 @@ export default function Category({ articles }) {
 }
 
 export async function getStaticProps({ params }) {
-  const articles = JSON.parse(
-    fs.readFileSync('public/articleList.json')
-  ).filter(article => {
+  const res = await fetch(`https://scumfiction.com/shop_data/items.json`)
+  const data = await res.json()
+  const articles = data.filter(article => {
     if (article.category.toLowerCase() == params.category.toLowerCase())
       return true
   })
@@ -16,7 +15,8 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const articles = JSON.parse(fs.readFileSync('public/articleList.json'))
+  const res = await fetch(`https://scumfiction.com/shop_data/items.json`)
+  const articles = await res.json()
   const paths = articles.map(article => ({
     params: { category: article.category.toLowerCase() }
   }))

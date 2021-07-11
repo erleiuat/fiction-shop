@@ -1,0 +1,146 @@
+[
+  {
+    "keyword": "pickup_camo",
+    "name": "Camo PickUp",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/pickup/pickup_camo.png",
+    "price": "300.00",
+    "description": "The Pickup Truck is currently the biggest vehicle in scum when it comes to carrying passengers and load. Even tho the SUV has the same cargo grid size, the maximum load is lower. 4 people inside the truck can use handguns to shoot while driving, while another 2 players can take place on the back."
+  },
+  {
+    "keyword": "pickup_black",
+    "name": "Black PickUp",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/pickup/pickup_black.png",
+    "price": "250.00",
+    "description": "The Pickup Truck is currently the biggest vehicle in scum when it comes to carrying passengers and load. Even tho the SUV has the same cargo grid size, the maximum load is lower. 4 people inside the truck can use handguns to shoot while driving, while another 2 players can take place on the back."
+  },
+  {
+    "keyword": "pickup_blue",
+    "name": "Blue PickUp",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/pickup/pickup_blue.png",
+    "price": "250.00",
+    "description": "The Pickup Truck is currently the biggest vehicle in scum when it comes to carrying passengers and load. Even tho the SUV has the same cargo grid size, the maximum load is lower. 4 people inside the truck can use handguns to shoot while driving, while another 2 players can take place on the back."
+  },
+  {
+    "keyword": "pickup_orange",
+    "name": "Orange PickUp",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/pickup/pickup_orange.png",
+    "price": "250.00",
+    "description": "The Pickup Truck is currently the biggest vehicle in scum when it comes to carrying passengers and load. Even tho the SUV has the same cargo grid size, the maximum load is lower. 4 people inside the truck can use handguns to shoot while driving, while another 2 players can take place on the back."
+  },
+  {
+    "keyword": "pickup_red",
+    "name": "Red PickUp",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/pickup/pickup_red.png",
+    "price": "250.00",
+    "description": "The Pickup Truck is currently the biggest vehicle in scum when it comes to carrying passengers and load. Even tho the SUV has the same cargo grid size, the maximum load is lower. 4 people inside the truck can use handguns to shoot while driving, while another 2 players can take place on the back."
+  },
+  {
+    "keyword": "pickup_redwhite",
+    "name": "Red/White PickUp",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/pickup/pickup_redwhite.png",
+    "price": "250.00",
+    "description": "The Pickup Truck is currently the biggest vehicle in scum when it comes to carrying passengers and load. Even tho the SUV has the same cargo grid size, the maximum load is lower. 4 people inside the truck can use handguns to shoot while driving, while another 2 players can take place on the back."
+  },
+  {
+    "keyword": "pickup_white",
+    "name": "White PickUp",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/pickup/pickup_white.png",
+    "price": "250.00",
+    "description": "The Pickup Truck is currently the biggest vehicle in scum when it comes to carrying passengers and load. Even tho the SUV has the same cargo grid size, the maximum load is lower. 4 people inside the truck can use handguns to shoot while driving, while another 2 players can take place on the back."
+  },
+  {
+    "keyword": "suv_black",
+    "name": "Black SUV",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/suv/suv_black.png",
+    "price": "200.00",
+    "description": "The SUV is the standard vehicle in scum. It is the most common and gets you and 4 other passengers from A to B safely. The cargo space is as large as that of the pickup, but the total weight of the vehicle is lower."
+  },
+  {
+    "keyword": "suv_blue",
+    "name": "Blue SUV",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/suv/suv_blue.png",
+    "price": "200.00",
+    "description": "The SUV is the standard vehicle in scum. It is the most common and gets you and 4 other passengers from A to B safely. The cargo space is as large as that of the pickup, but the total weight of the vehicle is lower."
+  },
+  {
+    "keyword": "suv_orange",
+    "name": "Orange SUV",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/suv/suv_orange.png",
+    "price": "200.00",
+    "description": "The SUV is the standard vehicle in scum. It is the most common and gets you and 4 other passengers from A to B safely. The cargo space is as large as that of the pickup, but the total weight of the vehicle is lower."
+  },
+  {
+    "keyword": "suv_police",
+    "name": "Police SUV",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/suv/suv_police.png",
+    "price": "200.00",
+    "description": "The SUV is the standard vehicle in scum. It is the most common and gets you and 4 other passengers from A to B safely. The cargo space is as large as that of the pickup, but the total weight of the vehicle is lower."
+  },
+  {
+    "keyword": "suv_police_accessoires",
+    "name": "Police SUV w. Acccessoires",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/suv/suv_police_accessoires.png",
+    "price": "200.00",
+    "description": "The SUV is the standard vehicle in scum. It is the most common and gets you and 4 other passengers from A to B safely. The cargo space is as large as that of the pickup, but the total weight of the vehicle is lower."
+  },
+  {
+    "keyword": "quad_camo",
+    "name": "Camo Quad",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/quad/quad_camo.png",
+    "price": "100.00",
+    "description": "Lorem izzle dolor sit amizzle, tellivizzle adipiscing elit. Nullam uhuh ... yih! velit, phat volutpat, suscipit quizzle, gravida vizzle, dang. Pellentesque eget tortor. Sizzle eros. We gonna chung izzle uhuh ... yih!"
+  },
+  {
+    "keyword": "quad_blue",
+    "name": "Blue Quad",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/quad/quad_blue.png",
+    "price": "100.00",
+    "description": "Lorem izzle dolor sit amizzle, tellivizzle adipiscing elit. Nullam uhuh ... yih! velit, phat volutpat, suscipit quizzle, gravida vizzle, dang. Pellentesque eget tortor. Sizzle eros. We gonna chung izzle uhuh ... yih!"
+  },
+  {
+    "keyword": "quad_red",
+    "name": "Red Quad",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/quad/quad_red.png",
+    "price": "100.00",
+    "description": "Lorem izzle dolor sit amizzle, tellivizzle adipiscing elit. Nullam uhuh ... yih! velit, phat volutpat, suscipit quizzle, gravida vizzle, dang. Pellentesque eget tortor. Sizzle eros. We gonna chung izzle uhuh ... yih!"
+  },
+  {
+    "keyword": "quad_yellow",
+    "name": "Yellow Quad",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/quad/quad_yellow.png",
+    "price": "100.00",
+    "description": "Lorem izzle dolor sit amizzle, tellivizzle adipiscing elit. Nullam uhuh ... yih! velit, phat volutpat, suscipit quizzle, gravida vizzle, dang. Pellentesque eget tortor. Sizzle eros. We gonna chung izzle uhuh ... yih!"
+  },
+  {
+    "keyword": "tracktor",
+    "name": "Tracktor",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/tracktor.png",
+    "price": "50.00",
+    "description": "Lorem izzle dolor sit amizzle, tellivizzle adipiscing elit. Nullam uhuh ... yih! velit, phat volutpat, suscipit quizzle, gravida vizzle, dang. Pellentesque eget tortor. Sizzle eros. We gonna chung izzle uhuh ... yih!"
+  },
+  {
+    "keyword": "keycard",
+    "name": "Keycard",
+    "category": "Premium",
+    "image": "https://scumfiction.com/shop_data/img/keycard.png",
+    "price": "500.00",
+    "description": "Pretty self-explanatory. The KeyCard is sold with a shelf life of 72 hours. A keycard for special bunkers is not sold. Each keycard unlocks a killbox in a random bunker."
+  }
+]
