@@ -41,6 +41,7 @@ export default function Home() {
               src='https://scumfiction.com/shop_data/logo.gif'
               width={420}
               height={260}
+              unoptimized={true}
             />
           </div>
         </div>

@@ -14,6 +14,7 @@ export default function CatalogItem(props) {
               className='object-cover object-center w-full h-full block'
               src={props.item.image}
               layout='fill'
+              unoptimized={true}
             />
           </a>
           <div className='p-3'>
