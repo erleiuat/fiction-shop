@@ -13,11 +13,17 @@ export default function Header() {
           <Link href='/catalog'>
             <a className='mr-5 hover:text-sky-400'>All Items</a>
           </Link>
+          <Link href='/catalog/premium'>
+            <a className='mr-5 hover:text-sky-400'>Premium</a>
+          </Link>
           <Link href='/catalog/vehicles'>
             <a className='mr-5 hover:text-sky-400'>Vehicles</a>
           </Link>
-          <Link href='/catalog/premium'>
-            <a className='mr-5 hover:text-sky-400'>Premium</a>
+          <Link href='/catalog/pharmacy'>
+            <a className='mr-5 hover:text-sky-400'>Pharmacy</a>
+          </Link>
+          <Link href='/catalog/kits'>
+            <a className='mr-5 hover:text-sky-400'>Kits</a>
           </Link>
         </nav>
       </div>

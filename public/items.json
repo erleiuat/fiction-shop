@@ -48,6 +48,14 @@
     "description": "The Pickup Truck is currently the biggest vehicle in scum when it comes to carrying passengers and load. Even tho the SUV has the same cargo grid size, the maximum load is lower. 4 people inside the truck can use handguns to shoot while driving, while another 2 players can take place on the back."
   },
   {
+    "keyword": "pickup_camo_upgrade",
+    "name": "Camo PickUp UPGRADE",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/pickup/pickup_camo_upgrade.png",
+    "price": "50.00",
+    "description": "Tired of your eye catching colored pickup? You can upgrade any pickup to camo for only 50.-!"
+  },
+  {
     "keyword": "pickup_white",
     "name": "White PickUp",
     "category": "Vehicles",
@@ -136,11 +144,99 @@
     "description": "Lorem izzle dolor sit amizzle, tellivizzle adipiscing elit. Nullam uhuh ... yih! velit, phat volutpat, suscipit quizzle, gravida vizzle, dang. Pellentesque eget tortor. Sizzle eros. We gonna chung izzle uhuh ... yih!"
   },
   {
+    "keyword": "motorboat",
+    "name": "Motorboat",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/img/motorboat.png",
+    "price": "100.00",
+    "description": "A motorboat, speedboat or powerboat is a boat that is powered by an engine. Some motorboats are fitted with inboard engines, others have an outboard motor installed on the rear, containing the internal combustion engine, the gearbox and the propeller in one portable unit. An inboard-outboard contains a hybrid of an inboard and an outboard, where the internal combustion engine is installed inside the boat, and the gearbox and propeller are outside."
+  },
+  {
     "keyword": "keycard",
     "name": "Keycard",
     "category": "Premium",
-    "image": "https://scumfiction.com/shop_data/img/keycard.png",
+    "image": "https://scumfiction.com/shop_data/img/premium/keycard.png",
     "price": "500.00",
     "description": "Pretty self-explanatory. The KeyCard is sold with a shelf life of 72 hours. A keycard for special bunkers is not sold. Each keycard unlocks a killbox in a random bunker."
+  },
+  {
+    "keyword": "lock_gold",
+    "name": "Golden Lock",
+    "category": "Premium",
+    "image": "https://scumfiction.com/shop_data/img/premium/lock_gold.png",
+    "price": "200.00",
+    "description": "The best available lock to protect you and your goods!"
+  },
+  {
+    "keyword": "lock_security",
+    "name": "Lock Protection Advanced",
+    "category": "Premium",
+    "image": "https://scumfiction.com/shop_data/img/premium/lock_security.png",
+    "price": "400.00",
+    "description": "Be even more safe by limiting your attackers in their lockpicking-attempts!"
+  },
+  {
+    "keyword": "katana",
+    "name": "Katana",
+    "category": "Premium",
+    "image": "https://scumfiction.com/shop_data/img/premium/katana.png",
+    "price": "500.00",
+    "description": "The one hit wonder cuts everything in it's way effortless!"
+  },
+  {
+    "keyword": "bandages",
+    "name": "5x5 Bandages",
+    "category": "Pharmacy",
+    "image": "https://scumfiction.com/shop_data/img/pharmacy/bandages.png",
+    "price": "80.00",
+    "description": "The big bandage-set contains 5 single-use bandages. This offer contains 5 big sets so a total of 25 bandages!"
+  },
+  {
+    "keyword": "vitamins",
+    "name": "5x Vitamins",
+    "category": "Pharmacy",
+    "image": "https://scumfiction.com/shop_data/img/pharmacy/vitamins.png",
+    "price": "50.00",
+    "description": ""
+  },
+  {
+    "keyword": "painkillers",
+    "name": "5x Painkillers",
+    "category": "Pharmacy",
+    "image": "https://scumfiction.com/shop_data/img/pharmacy/painkillers.png",
+    "price": "50.00",
+    "description": ""
+  },
+  {
+    "keyword": "car_repair",
+    "name": "Car-Repair Kit",
+    "category": "Kits",
+    "image": "https://scumfiction.com/shop_data/img/kits/car_repair.png",
+    "price": "10.00",
+    "description": ""
+  },
+  {
+    "keyword": "tire_repair",
+    "name": "Tire-Repair Kit",
+    "category": "Kits",
+    "image": "https://scumfiction.com/shop_data/img/kits/tire_repair.png",
+    "price": "10.00",
+    "description": ""
+  },
+  {
+    "keyword": "tool_box",
+    "name": "Tool-Box",
+    "category": "Kits",
+    "image": "https://scumfiction.com/shop_data/img/kits/tool_box.png",
+    "price": "40.00",
+    "description": ""
+  },
+  {
+    "keyword": "tool_box_small",
+    "name": "Tool-Box Small",
+    "category": "Kits",
+    "image": "https://scumfiction.com/shop_data/img/kits/tool_box_small.png",
+    "price": "20.00",
+    "description": ""
   }
 ]
