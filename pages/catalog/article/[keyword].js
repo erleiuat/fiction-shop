@@ -17,6 +17,7 @@ export default function Article({ article }) {
               src={article.image}
               width={400}
               height={400}
+              unoptimized={true}
             />
             <div className='lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0'>
               <h2 className='text-sm title-font text-gray-300 tracking-widest'>
