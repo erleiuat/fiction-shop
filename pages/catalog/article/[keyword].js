@@ -3,33 +3,48 @@ import Image from 'next/image'
 import Head from 'next/head'
 
 export default function Article({ article }) {
+  function buildProperties(article) {
+    if (article.properties) {
+      let list = []
+      for (const key in article.properties) {
+        list.push(
+          <div key={key} className='flex border-t border-gray-800 py-2'>
+            <span className='text-gray-300'>{key}</span>
+            <span className='ml-auto text-white'>
+              {article.properties[key]}
+            </span>
+          </div>
+        )
+      }
+      return list
+    }
+  }
+
   return (
     <Layout>
       <Head>
         <title>{article.name} - Article from FictionShop</title>
-        <link rel='icon' href='/favicon.ico' />
+        <meta name='description' content={article.description}></meta>
       </Head>
-      <section className='text-gray-200 body-font mx-auto overflow-hidden w-full'>
-        <div className='container mx-auto items-center'>
-          <div className='flex w-full'>
-            <Image
-              className='lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded'
+      <section className='text-gray-400 bg-gray-900 body-font overflow-hidden'>
+        <div className='container px-5 py-24 mx-auto'>
+          <div className='lg:w-4/5 mx-auto flex flex-wrap'>
+            <img
+              className='lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded'
               src={article.image}
-              width={400}
-              height={400}
-              unoptimized={true}
             />
             <div className='lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0'>
-              <h2 className='text-sm title-font text-gray-300 tracking-widest'>
-                {article.category.toUpperCase()}
+              <h2 className='text-sm title-font text-gray-500 tracking-widest'>
+                {article.category}
               </h2>
-              <h1 className='text-gray-100 text-4xl title-font font-medium mb-4'>
+              <h1 className='text-white text-3xl title-font font-medium mb-1'>
                 {article.name}
               </h1>
-              <p className='leading-relaxed text-md'>{article.description}</p>
-              <div className='flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5'></div>
+              <p className='leading-relaxed mb-2'>{article.description}</p>
+              {buildProperties(article)}
+              <div className='flex mt-1 items-center pb-3 border-b-2 border-gray-800 mb-5'></div>
               <div className='flex'>
-                <span className='title-font font-bold text-4xl text-sky-500'>
+                <span className='title-font font-medium text-2xl text-white'>
                   ${article.price}
                 </span>
               </div>

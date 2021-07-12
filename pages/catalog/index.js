@@ -1,7 +1,19 @@
 import ItemList from 'components/catalog/itemList'
+import Head from 'next/head'
 
 export default function Category({ articles }) {
-  return <ItemList articles={articles} />
+  return (
+    <>
+      <Head>
+        <title>All Items - FictionShop</title>
+        <meta
+          name='description'
+          content='All available items in the FictionShop'
+        ></meta>
+      </Head>
+      <ItemList articles={articles} />
+    </>
+  )
 }
 
 export async function getStaticProps({ params }) {

@@ -24,8 +24,11 @@ module.exports = {
       yellow: colors.amber
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif']
+      sans: ['Nunito', 'sans-serif']
+    },
+    fontWeight: {
+      normal: 300,
+      bold: 700
     },
     extend: {
       spacing: {
