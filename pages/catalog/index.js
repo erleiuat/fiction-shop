@@ -1,9 +1,10 @@
 import ItemList from 'components/catalog/itemList'
+import Layout from 'components/layout'
 import Head from 'next/head'
 
 export default function Category({ articles }) {
   return (
-    <>
+    <Layout>
       <Head>
         <title>All Items - FictionShop</title>
         <meta
@@ -12,7 +13,7 @@ export default function Category({ articles }) {
         ></meta>
       </Head>
       <ItemList articles={articles} />
-    </>
+    </Layout>
   )
 }
 

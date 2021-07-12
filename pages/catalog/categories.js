@@ -40,7 +40,7 @@ export default function Categories({ categories }) {
                 These are the available Item-Categories in the Shop:
               </p>
               <div className='flex justify-center my-2 w-full'>
-                <Link href='catalog/'>
+                <Link href='/catalog'>
                   <button className='w-full inline-flex text-white bg-sky-900 border-0 py-2 px-6 focus:outline-none hover:bg-sky-400 rounded text-lg'>
                     All Items
                   </button>

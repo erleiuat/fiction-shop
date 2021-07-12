@@ -34,8 +34,8 @@ export default function Header() {
           <Link href='/catalog/pharmacy'>
             <a className='mx-3 hover:text-sky-400'>Pharmacy</a>
           </Link>
-          <Link href='/catalog/kits'>
-            <a className='mx-3 hover:text-sky-400'>Kits</a>
+          <Link href='/catalog/categories'>
+            <a className='mx-3 hover:text-sky-400'>All Categories</a>
           </Link>
         </nav>
         <div className='w-full border-t border-gray-300 my-3 md:hidden'></div>

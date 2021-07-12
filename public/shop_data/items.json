@@ -389,8 +389,8 @@
     "buy_command": "/buyitem bandages",
     "spawn_command": "#SpawnItem Emergency_Bandage_Big 5",
     "spawn_location": "inside",
-    "price_fame": "80",
-    "price": "80.00",
+    "price_fame": "50",
+    "price": "50.00",
     "description": "The Emergency Bandage Pack contains 5 single-use bandages. This offer contains 5 Bandage Packs so a total of 25 bandages!"
   },
   {
@@ -401,8 +401,8 @@
     "buy_command": "/buyitem vitamins",
     "spawn_command": "#SpawnItem Vitamins_03 5",
     "spawn_location": "inside",
-    "price_fame": "50",
-    "price": "50.00",
+    "price_fame": "20",
+    "price": "20.00",
     "description": ""
   },
   {
@@ -413,8 +413,8 @@
     "buy_command": "/buyitem painkillers",
     "spawn_command": "#SpawnItem Painkillers_03 5",
     "spawn_location": "inside",
-    "price_fame": "50",
-    "price": "50.00",
+    "price_fame": "20",
+    "price": "20.00",
     "description": ""
   },
   {
@@ -449,8 +449,8 @@
     "buy_command": "/buyitem tool_box",
     "spawn_command": "#SpawnItem Tool_Box",
     "spawn_location": "inside",
-    "price_fame": "40",
-    "price": "40.00",
+    "price_fame": "30",
+    "price": "30.00",
     "description": ""
   },
   {
@@ -463,6 +463,90 @@
     "spawn_location": "inside",
     "price_fame": "20",
     "price": "20.00",
+    "description": ""
+  },
+  {
+    "keyword": "screwdriver",
+    "name": "Screwdriver",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/screwdriver.png",
+    "buy_command": "/buyitem screwdriver",
+    "spawn_command": "#SpawnItem Screwdriver",
+    "spawn_location": "inside",
+    "price_fame": "20",
+    "price": "20.00",
+    "description": ""
+  },
+  {
+    "keyword": "compass",
+    "name": "Military Compass",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/compass.png",
+    "buy_command": "/buyitem compass",
+    "spawn_command": "#SpawnItem BP_Compass",
+    "spawn_location": "inside",
+    "price_fame": "10",
+    "price": "10.00",
+    "description": ""
+  },
+  {
+    "keyword": "weapon_cleaning",
+    "name": "Weapon Cleaning Kit",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/weapon_cleaning.png",
+    "buy_command": "/buyitem weapon_cleaning",
+    "spawn_command": "#SpawnItem Weapon_Cleaning_Kit",
+    "spawn_location": "inside",
+    "price_fame": "80",
+    "price": "80.00",
+    "description": ""
+  },
+  {
+    "keyword": "chainsaw",
+    "name": "Chainsaw",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/chainsaw.png",
+    "buy_command": "/buyitem chainsaw",
+    "spawn_command": "#SpawnItem BP_Chainsaw",
+    "spawn_location": "inside",
+    "price_fame": "60",
+    "price": "60.00",
+    "description": ""
+  },
+  {
+    "keyword": "explosive_bolt",
+    "name": "Explosive Crossbow Bolt",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/explosive_bolt.png",
+    "buy_command": "/buyitem explosive_bolt",
+    "spawn_command": "#SpawnItem BP_Ammo_Crossbow_Bolt_Explosive",
+    "spawn_location": "inside",
+    "price_fame": "10",
+    "price": "10.00",
+    "description": ""
+  },
+  {
+    "keyword": "ghillie_jacket",
+    "name": "Black Ghillie Jacket",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/ghillie_jacket.png",
+    "buy_command": "/buyitem ghillie_jacket",
+    "spawn_command": "#SpawnItem Ghillie_Suit_Jacket_Black",
+    "spawn_location": "inside",
+    "price_fame": "250",
+    "price": "250.00",
+    "description": ""
+  },
+  {
+    "keyword": "ghillie_pants",
+    "name": "Black Ghillie Pants",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/ghillie_pants.png",
+    "buy_command": "/buyitem ghillie_pants",
+    "spawn_command": "#SpawnItem Ghillie_Suit_Pants_Black",
+    "spawn_location": "inside",
+    "price_fame": "250",
+    "price": "250.00",
     "description": ""
   }
 ]
