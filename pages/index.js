@@ -22,7 +22,12 @@ export default function Home() {
               <a className='text-sky-500 font-bold'>FictionShop</a>
             </h1>
             <p className='mb-8 leading-relaxed'>
-              Here you can look for items to buy on our Server.
+              Here you can look for items to buy on our Server. Need some help
+              buying items? Check out{' '}
+              <Link href='/so_how_does_this_crap_work_tho'>
+                <a className='text-sky-500 text-bold'>How & Where to buy</a>
+              </Link>
+              .
             </p>
             <div className='flex justify-center my-2 w-full'>
               <Link href='catalog/premium'>

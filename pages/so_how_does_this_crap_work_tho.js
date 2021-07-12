@@ -8,10 +8,7 @@ export default function WhereToBuy() {
     <Layout>
       <Head>
         <title>Where to buy? - FictionShop</title>
-        <meta
-          name='description'
-          content='Find out where you can buy our items!'
-        ></meta>
+        <meta name='description' content='Lemme tell you how that works'></meta>
       </Head>
 
       <section className='text-gray-600 body-font overflow-hidden'>
