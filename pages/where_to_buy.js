@@ -22,14 +22,23 @@ export default function WhereToBuy() {
                 How & Where to buy
               </h1>
               <div className='text-gray-200'>
-                The FictionShop has yet to be automated and is still run buy the
-                admins and mods of ScumFiction. If you want to buy something you
-                first need money, which you can find in the game while looting.
+                The FictionShop runs mainly automated by the FictionBot. In case
+                the bot is not working properly or under maintenance, the admins
+                and mods will take his position. There are also a few items
+                which can't be sold by the bot.{' '}
+                <b className='text-bold'>
+                  Check the blue box on every article to see if you can get that
+                  item from FictionBot or an admin/mod.
+                </b>{' '}
+                If you want to buy something you first need famepoints or money,
+                which you can find in the game while looting.
                 <br />
                 <br />
-                Our goal is to automate the store via the ingame bot, but this
-                is still very far in the future. The bot should then use the
-                glory points as currency.
+                When buying items from FictionBot your Famepoints will be used
+                as currency. You can exchange the ingame-money for famepoints
+                with an admin/mod. To purchase items from FictionBot, you need
+                to be at the shop in the tradingzone. The <b>/buyitem</b>{' '}
+                command will also work in local-chat.
               </div>
             </div>
             <img
