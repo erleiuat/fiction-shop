@@ -41,11 +41,19 @@ export default function Article({ article }) {
                 {article.name}
               </h1>
               <p className='leading-relaxed mb-2'>{article.description}</p>
+              <p className='tracking-widest text-white bg-sky-500 border-0 py-2 px-8 rounded text-lg text-center my-3'>
+                {article.buy_command}
+              </p>
               {buildProperties(article)}
               <div className='flex mt-1 items-center pb-3 border-b-2 border-gray-800 mb-5'></div>
               <div className='flex'>
                 <span className='title-font font-medium text-2xl text-white'>
                   ${article.price}
+                </span>
+              </div>
+              <div className='flex'>
+                <span className='title-font font-medium text-1xl text-white'>
+                  {article.price_fame} Famepoints
                 </span>
               </div>
             </div>
