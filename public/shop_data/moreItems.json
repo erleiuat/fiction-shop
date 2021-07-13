@@ -1,0 +1,26 @@
+[
+  {
+    "keyword": "ghillie_jacket",
+    "name": "Black Ghillie Jacket",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/ghillie_jacket.png",
+    "buy_command": "/buyitem ghillie_jacket",
+    "spawn_command": "#SpawnItem Ghillie_Suit_Jacket_Black",
+    "spawn_location": "inside",
+    "price_fame": "250",
+    "price": "250.00",
+    "description": ""
+  },
+  {
+    "keyword": "ghillie_pants",
+    "name": "Black Ghillie Pants",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/ghillie_pants.png",
+    "buy_command": "/buyitem ghillie_pants",
+    "spawn_command": "#SpawnItem Ghillie_Suit_Pants_Black",
+    "spawn_location": "inside",
+    "price_fame": "250",
+    "price": "250.00",
+    "description": ""
+  }
+]

@@ -466,18 +466,6 @@
     "description": ""
   },
   {
-    "keyword": "screwdriver",
-    "name": "Screwdriver",
-    "category": "Specials",
-    "image": "https://scumfiction.com/shop_data/images/catalog/specials/screwdriver.png",
-    "buy_command": "/buyitem screwdriver",
-    "spawn_command": "#SpawnItem Screwdriver",
-    "spawn_location": "inside",
-    "price_fame": "20",
-    "price": "20.00",
-    "description": ""
-  },
-  {
     "keyword": "compass",
     "name": "Military Compass",
     "category": "Specials",
@@ -509,8 +497,8 @@
     "buy_command": "/buyitem chainsaw",
     "spawn_command": "#SpawnItem BP_Chainsaw",
     "spawn_location": "inside",
-    "price_fame": "60",
-    "price": "60.00",
+    "price_fame": "50",
+    "price": "50.00",
     "description": ""
   },
   {
@@ -526,27 +514,43 @@
     "description": ""
   },
   {
-    "keyword": "ghillie_jacket",
-    "name": "Black Ghillie Jacket",
+    "keyword": "keycard_special",
+    "name": "Keycard SPECIAL",
     "category": "Specials",
-    "image": "https://scumfiction.com/shop_data/images/catalog/specials/ghillie_jacket.png",
-    "buy_command": "/buyitem ghillie_jacket",
-    "spawn_command": "#SpawnItem Ghillie_Suit_Jacket_Black",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/keycard_special.png",
+    "buy_command": "/buyitem keycard_special",
+    "spawn_command": "#SpawnItem BP_KeyCard",
     "spawn_location": "inside",
-    "price_fame": "250",
-    "price": "250.00",
-    "description": ""
+    "price_fame": "50",
+    "price": "50.00",
+    "description": "Pretty self-explanatory. The KeyCard is sold with a shelf life of 72 hours. A keycard for special bunkers is not sold. Each keycard unlocks a killbox in a random bunker."
   },
   {
-    "keyword": "ghillie_pants",
-    "name": "Black Ghillie Pants",
+    "keyword": "bandages_special",
+    "name": "SPECIAL: 5x Emergency Bandage Pack",
     "category": "Specials",
-    "image": "https://scumfiction.com/shop_data/images/catalog/specials/ghillie_pants.png",
-    "buy_command": "/buyitem ghillie_pants",
-    "spawn_command": "#SpawnItem Ghillie_Suit_Pants_Black",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/bandages_special.png",
+    "buy_command": "/buyitem bandages",
+    "spawn_command": "#SpawnItem Emergency_Bandage_Big 5",
     "spawn_location": "inside",
-    "price_fame": "250",
-    "price": "250.00",
-    "description": ""
+    "price_fame": "10",
+    "price": "10.00",
+    "description": "The Emergency Bandage Pack contains 5 single-use bandages. This offer contains 5 Bandage Packs so a total of 25 bandages!"
+  },
+  {
+    "keyword": "lock_protection_special",
+    "name": "SPECIAL: Lock Protection Advanced",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/lock_protection_special.png",
+    "buy_command": "/buyitem lock_protection_special",
+    "spawn_command": "#SpawnItem Lock_Security_Lvl3",
+    "spawn_location": "inside",
+    "price_fame": "40",
+    "price": "40.00",
+    "description": "Be even more safe by limiting your attackers in their lockpicking-attempts! Two of these in your door and there's no chance they'll make it.",
+    "properties": {
+      "Damage to Gear": "12.5 / Attempt",
+      "Damage without Gear": "5 Healthpoints / Attempt"
+    }
   }
 ]
