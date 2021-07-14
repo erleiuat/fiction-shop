@@ -466,6 +466,18 @@
     "description": ""
   },
   {
+    "keyword": "sugar",
+    "name": "Sugar",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/sugar.png",
+    "buy_command": "/buyitem sugar",
+    "spawn_command": "#SpawnItem Sugar",
+    "spawn_location": "inside",
+    "price_fame": "5",
+    "price": "5.00",
+    "description": "Fill up your calories the fastest way possible!"
+  },
+  {
     "keyword": "compass",
     "name": "Military Compass",
     "category": "Specials",
