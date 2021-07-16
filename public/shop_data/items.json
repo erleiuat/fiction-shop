@@ -564,5 +564,17 @@
       "Damage to Gear": "12.5 / Attempt",
       "Damage without Gear": "5 Healthpoints / Attempt"
     }
+  },
+  {
+    "keyword": "nails",
+    "name": "SPECIAL: Nails",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/nails.png",
+    "buy_command": "/buyitem nails",
+    "spawn_command": "#SpawnItem Nails_Package_Box",
+    "spawn_location": "inside",
+    "price_fame": "10",
+    "price": "10.00",
+    "description": ""
   }
 ]
