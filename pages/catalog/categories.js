@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from 'components/layout'
 import Link from 'next/link'
+import shopItems from 'public/shop_data/items.json'
 
 export default function Categories({ categories }) {
   function buildCategories(categories) {
@@ -24,18 +25,13 @@ export default function Categories({ categories }) {
       <Layout>
         <Head>
           <title>Categories - FictionShop</title>
-          <meta
-            name='description'
-            content='Available Item-Categories in the FictionShop'
-          ></meta>
+          <meta name='description' content='Available Item-Categories in the FictionShop'></meta>
         </Head>
 
         <section className='text-gray-300'>
           <div className='container mx-auto flex px-3 py-24 flex-col items-center'>
             <div className='lg:flex-grow flex flex-col mb-16 items-center text-center'>
-              <h1 className='sm:text-4xl text-3xl mb-4 text-gray-100'>
-                Categories
-              </h1>
+              <h1 className='sm:text-4xl text-3xl mb-4 text-gray-100'>Categories</h1>
               <p className='mb-8 leading-relaxed'>
                 These are the available Item-Categories in the Shop:
               </p>
@@ -57,9 +53,8 @@ export default function Categories({ categories }) {
 
 export async function getStaticProps() {
   let categories = {}
-  const res = await fetch(`https://scumfiction.com/shop_data/items.json`)
-  const articles = await res.json()
-  for (const article of articles) {
+  const data = shopItems
+  for (const article of data) {
     categories[article.category] = '/catalog/' + article.category.toLowerCase()
   }
 

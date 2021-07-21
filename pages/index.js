@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from 'components/layout'
 import ItemList from 'components/catalog/itemList'
+import shopItems from 'public/shop_data/items.json'
 
 export default function Home({ articles }) {
   return (
@@ -19,12 +20,11 @@ export default function Home({ articles }) {
         <div className='container mx-auto flex px-3 pt-10 md:pt-3 md:flex-row flex-col items-center'>
           <div className='lg:flex-grow lg:w-1/2 lg:pr-24 lg:pr-16 flex flex-col lg:items-start lg:text-left mb-16 lg:mb-0 items-center text-center'>
             <h1 className='sm:text-4xl text-3xl mb-4 text-gray-100'>
-              Welcome to the{' '}
-              <a className='text-sky-500 font-bold'>FictionShop</a>
+              Welcome to the <a className='text-sky-500 font-bold'>FictionShop</a>
             </h1>
             <p className='mb-8 leading-relaxed'>
-              Here you can look for items to buy on our Server. Need some help
-              buying items? Check out{' '}
+              Here you can look for items to buy on our Server. Need some help buying items? Check
+              out{' '}
               <Link href='/so_how_does_this_crap_work_tho'>
                 <a className='text-sky-500 text-bold'>How & Where to buy</a>
               </Link>
@@ -80,8 +80,7 @@ export default function Home({ articles }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`https://scumfiction.com/shop_data/items.json`)
-  const data = await res.json()
+  const data = shopItems
   const articles = data.filter(article => {
     if (article.category.toLowerCase() == 'specials') {
       return true

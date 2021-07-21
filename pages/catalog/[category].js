@@ -1,6 +1,7 @@
 import ItemList from 'components/catalog/itemList'
 import Layout from 'components/layout'
 import Head from 'next/head'
+import shopItems from 'public/shop_data/items.json'
 
 export default function Category({ articles, params }) {
   return (
@@ -18,8 +19,7 @@ export default function Category({ articles, params }) {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch(`https://scumfiction.com/shop_data/items.json`)
-  const data = await res.json()
+  const data = shopItems
   const articles = data.filter(article => {
     if (article.category.toLowerCase() == params.category.toLowerCase()) {
       params.category = article.category
@@ -30,9 +30,8 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const res = await fetch(`https://scumfiction.com/shop_data/items.json`)
-  const articles = await res.json()
-  const paths = articles.map(article => ({
+  const data = shopItems
+  const paths = data.map(article => ({
     params: { category: article.category.toLowerCase() }
   }))
 

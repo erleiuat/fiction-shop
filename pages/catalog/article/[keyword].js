@@ -1,6 +1,7 @@
 import Layout from 'components/layout'
 import Image from 'next/image'
 import Head from 'next/head'
+import shopItems from 'public/shop_data/items.json'
 
 export default function Article({ article }) {
   function buildProperties(article) {
@@ -10,9 +11,7 @@ export default function Article({ article }) {
         list.push(
           <div key={key} className='flex border-t border-gray-800 py-2'>
             <span className='text-gray-300'>{key}</span>
-            <span className='ml-auto text-white'>
-              {article.properties[key]}
-            </span>
+            <span className='ml-auto text-white'>{article.properties[key]}</span>
           </div>
         )
       }
@@ -37,9 +36,7 @@ export default function Article({ article }) {
               <h2 className='text-sm title-font text-gray-500 tracking-widest'>
                 {article.category}
               </h2>
-              <h1 className='text-white text-3xl title-font font-medium mb-1'>
-                {article.name}
-              </h1>
+              <h1 className='text-white text-3xl title-font font-medium mb-1'>{article.name}</h1>
               <p className='leading-relaxed mb-2'>{article.description}</p>
               <p className='tracking-widest text-white bg-sky-500 border-0 py-2 px-8 rounded text-lg text-center my-3'>
                 {article.buy_command}
@@ -47,9 +44,7 @@ export default function Article({ article }) {
               {buildProperties(article)}
               <div className='flex mt-1 items-center pb-3 border-b-2 border-gray-800 mb-5'></div>
               <div className='flex'>
-                <span className='title-font font-medium text-2xl text-white'>
-                  ${article.price}
-                </span>
+                <span className='title-font font-medium text-2xl text-white'>${article.price}</span>
               </div>
               <div className='flex'>
                 <span className='title-font font-medium text-1xl text-white'>
@@ -65,10 +60,8 @@ export default function Article({ article }) {
 }
 
 export async function getStaticPaths() {
-  const res = await fetch(`https://scumfiction.com/shop_data/items.json`)
-  const articles = await res.json()
-
-  const paths = articles.map(article => ({
+  const data = shopItems
+  const paths = data.map(article => ({
     params: { keyword: article.keyword }
   }))
 
@@ -76,10 +69,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch(`https://scumfiction.com/shop_data/items.json`)
-  const articles = await res.json()
-  const article = articles.filter(
-    article => article.keyword === params.keyword
-  )[0]
+  const data = shopItems
+  const article = data.filter(article => article.keyword === params.keyword)[0]
   return { props: { article } }
 }

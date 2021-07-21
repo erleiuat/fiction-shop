@@ -1,16 +1,14 @@
 import ItemList from 'components/catalog/itemList'
 import Layout from 'components/layout'
 import Head from 'next/head'
+import shopItems from 'public/shop_data/items.json'
 
 export default function Category({ articles }) {
   return (
     <Layout>
       <Head>
         <title>All Items - FictionShop</title>
-        <meta
-          name='description'
-          content='All available items in the FictionShop'
-        ></meta>
+        <meta name='description' content='All available items in the FictionShop'></meta>
       </Head>
       <ItemList articles={articles} />
     </Layout>
@@ -18,7 +16,7 @@ export default function Category({ articles }) {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch(`https://scumfiction.com/shop_data/items.json`)
-  const articles = await res.json()
+  const data = shopItems
+  const articles = data
   return { props: { articles } }
 }
