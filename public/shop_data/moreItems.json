@@ -22,5 +22,45 @@
     "price_fame": "250",
     "price": "250.00",
     "description": ""
+  },
+  {
+    "keyword": "lock_protection_special",
+    "name": "SPECIAL: Lock Protection Advanced",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/lock_protection_special.png",
+    "buy_command": "/buyitem lock_protection_special",
+    "spawn_command": "#SpawnItem Lock_Security_Lvl3",
+    "spawn_location": "inside",
+    "price_fame": "40",
+    "price": "40.00",
+    "description": "Be even more safe by limiting your attackers in their lockpicking-attempts! Two of these in your door and there's no chance they'll make it.",
+    "properties": {
+      "Damage to Gear": "12.5 / Attempt",
+      "Damage without Gear": "5 Healthpoints / Attempt"
+    }
+  },
+  {
+    "keyword": "keycard_special",
+    "name": "Keycard SPECIAL",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/keycard_special.png",
+    "buy_command": "/buyitem keycard_special",
+    "spawn_command": "#SpawnItem BP_KeyCard",
+    "spawn_location": "inside",
+    "price_fame": "50",
+    "price": "50.00",
+    "description": "Pretty self-explanatory. The KeyCard is sold with a shelf life of 72 hours. A keycard for special bunkers is not sold. Each keycard unlocks a killbox in a random bunker."
+  },
+  {
+    "keyword": "explosive_bolt",
+    "name": "Explosive Crossbow Bolt",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/explosive_bolt.png",
+    "buy_command": "/buyitem explosive_bolt",
+    "spawn_command": "#SpawnItem BP_Ammo_Crossbow_Bolt_Explosive",
+    "spawn_location": "inside",
+    "price_fame": "10",
+    "price": "10.00",
+    "description": ""
   }
 ]
