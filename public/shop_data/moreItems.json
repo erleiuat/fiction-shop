@@ -62,5 +62,29 @@
     "price_fame": "10",
     "price": "10.00",
     "description": ""
+  },
+  {
+    "keyword": "lock_gold_special",
+    "name": "SPECIAL: Golden Lock",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/premium/lock_gold.png",
+    "buy_command": "/buyitem lock_gold_special",
+    "spawn_command": "#SpawnItem Lock_Item_Advanced",
+    "spawn_location": "inside",
+    "price_fame": "20",
+    "price": "20.00",
+    "description": "The best available lock to protect you and your goods!"
+  },
+  {
+    "keyword": "nails",
+    "name": "SPECIAL: Nails",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/catalog/specials/nails.png",
+    "buy_command": "/buyitem nails",
+    "spawn_command": "#SpawnItem Nails_Package_Box",
+    "spawn_location": "inside",
+    "price_fame": "10",
+    "price": "10.00",
+    "description": ""
   }
 ]
