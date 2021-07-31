@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout from 'components/layout'
 import Link from 'next/link'
-import shopItems from 'public/shop_data/items.json'
+import shopItems from 'public/shop_data/items/'
 
 export default function Categories({ categories }) {
   function buildCategories(categories) {

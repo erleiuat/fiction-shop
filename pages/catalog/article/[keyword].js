@@ -1,7 +1,7 @@
 import Layout from 'components/layout'
 import Image from 'next/image'
 import Head from 'next/head'
-import shopItems from 'public/shop_data/items.json'
+import shopItems from 'public/shop_data/items/'
 
 export default function Article({ article }) {
   function buildProperties(article) {

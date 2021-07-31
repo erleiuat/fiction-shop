@@ -1,0 +1,74 @@
+[
+  {
+    "keyword": "backpack_black",
+    "name": "Hiking Backpack Black",
+    "category": "Clothing",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Hiking_Backpack_06.png",
+    "buy_command": "/buyitem backpack_black",
+    "spawn_command": "#spawnitem Hiking_Backpack_06",
+    "spawn_location": "inside",
+    "price_fame": "80",
+    "price": "80.00",
+    "description": ""
+  },
+  {
+    "keyword": "backpack_blue",
+    "name": "Hiking Backpack Blue",
+    "category": "Clothing",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Hiking_Backpack_03.png",
+    "buy_command": "/buyitem backpack_blue",
+    "spawn_command": "#spawnitem Hiking_Backpack_03",
+    "spawn_location": "inside",
+    "price_fame": "80",
+    "price": "80.00",
+    "description": ""
+  },
+  {
+    "keyword": "backpack_yellow",
+    "name": "Hiking Backpack Yellow",
+    "category": "Clothing",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Hiking_Backpack_04.png",
+    "buy_command": "/buyitem backpack_yellow",
+    "spawn_command": "#spawnitem Hiking_Backpack_04",
+    "spawn_location": "inside",
+    "price_fame": "80",
+    "price": "80.00",
+    "description": ""
+  },
+  {
+    "keyword": "backpack_green",
+    "name": "Hiking Backpack Green",
+    "category": "Clothing",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Hiking_Backpack_02.png",
+    "buy_command": "/buyitem backpack_green",
+    "spawn_command": "#spawnitem Hiking_Backpack_02",
+    "spawn_location": "inside",
+    "price_fame": "80",
+    "price": "80.00",
+    "description": ""
+  },
+  {
+    "keyword": "backpack_red",
+    "name": "Hiking Backpack Red",
+    "category": "Clothing",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Hiking_Backpack_01.png",
+    "buy_command": "/buyitem backpack_red",
+    "spawn_command": "#spawnitem Hiking_Backpack_01",
+    "spawn_location": "inside",
+    "price_fame": "80",
+    "price": "80.00",
+    "description": ""
+  },
+  {
+    "keyword": "waist_bag",
+    "name": "Waist Bag Black",
+    "category": "Clothing",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Waist_Bag_Small_01.png",
+    "buy_command": "/buyitem waist_bag",
+    "spawn_command": "#spawnitem Waist_Bag_Small_01",
+    "spawn_location": "inside",
+    "price_fame": "25",
+    "price": "25.00",
+    "description": ""
+  }
+]

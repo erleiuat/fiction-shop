@@ -1,0 +1,90 @@
+[
+  {
+    "keyword": "keycard",
+    "name": "Keycard",
+    "category": "Premium",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Digital_Acess_Card.png",
+    "buy_command": "/buyitem keycard",
+    "spawn_command": "#SpawnItem BP_KeyCard",
+    "spawn_location": "inside",
+    "price_fame": "500",
+    "price": "500.00",
+    "description": "Pretty self-explanatory. The KeyCard is sold with a shelf life of 72 hours. A keycard for special bunkers is not sold. Each keycard unlocks a killbox in a random bunker."
+  },
+  {
+    "keyword": "lock_gold",
+    "name": "Golden/Advanced Lock",
+    "category": "Premium",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Lock_Advanced.png",
+    "buy_command": "/buyitem lock_gold",
+    "spawn_command": "#SpawnItem Lock_Item_Advanced",
+    "spawn_location": "inside",
+    "price_fame": "200",
+    "price": "200.00",
+    "description": "The best available lock to protect you and your goods!"
+  },
+  {
+    "keyword": "lock_silver",
+    "name": "Silver/Medium Lock",
+    "category": "Premium",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Lock_Medium.png",
+    "buy_command": "/buyitem lock_silver",
+    "spawn_command": "#SpawnItem Lock_Items_Medium",
+    "spawn_location": "inside",
+    "price_fame": "100",
+    "price": "100.00",
+    "description": "The second choice in locks to protect your base!"
+  },
+  {
+    "keyword": "lock_protection",
+    "name": "Lock Protection Advanced",
+    "category": "Premium",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Lock_Security_Lvl3.png",
+    "buy_command": "/buyitem lock_protection",
+    "spawn_command": "#SpawnItem Lock_Security_Lvl3",
+    "spawn_location": "inside",
+    "price_fame": "400",
+    "price": "400.00",
+    "description": "Be even more safe by limiting your attackers in their lockpicking-attempts! Two of these in your door and there's no chance they'll make it.",
+    "properties": {
+      "Damage to Gear": "12.5 / Attempt",
+      "Damage without Gear": "5 Healthpoints / Attempt"
+    }
+  },
+  {
+    "keyword": "katana",
+    "name": "Katana",
+    "category": "Premium",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Katana_Vicinity.png",
+    "buy_command": "/buyitem katana",
+    "spawn_command": "#SpawnItem 2H_Katana",
+    "spawn_location": "inside",
+    "price_fame": "500",
+    "price": "500.00",
+    "description": "The one hit wonder cuts everything in it's way effortless!"
+  },
+  {
+    "keyword": "baseball_bat",
+    "name": "Baseball Bat with wire",
+    "category": "Premium",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Baseball_Bat_Wire_Vicinity.png",
+    "buy_command": "/buyitem baseball_bat",
+    "spawn_command": "#spawnitem 2H_Baseball_Bat_with_wire",
+    "spawn_location": "inside",
+    "price_fame": "250",
+    "price": "250.00",
+    "description": ""
+  },
+  {
+    "keyword": "dildo",
+    "name": "Pilot drill",
+    "category": "Premium",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Dildo_Vicinity.png",
+    "buy_command": "/buyitem dildo",
+    "spawn_command": "#SpawnItem 1H_Dildo",
+    "spawn_location": "inside",
+    "price_fame": "50",
+    "price": "50.00",
+    "description": ""
+  }
+]

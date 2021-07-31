@@ -1,0 +1,50 @@
+[
+  {
+    "keyword": "compass",
+    "name": "Military Compass",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Compass_Open_01.png",
+    "buy_command": "/buyitem compass",
+    "spawn_command": "#SpawnItem BP_Compass",
+    "spawn_location": "inside",
+    "price_fame": "10",
+    "price": "10.00",
+    "description": ""
+  },
+  {
+    "keyword": "weapon_cleaning",
+    "name": "Weapon Cleaning Kit",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Weapon_Cleaning_Kit_01.png",
+    "buy_command": "/buyitem weapon_cleaning",
+    "spawn_command": "#SpawnItem Weapon_Cleaning_Kit",
+    "spawn_location": "inside",
+    "price_fame": "80",
+    "price": "80.00",
+    "description": ""
+  },
+  {
+    "keyword": "firework",
+    "name": "Big Firework",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Fireworks_small.png",
+    "buy_command": "/buyitem firework",
+    "spawn_command": "#SpawnItem Fireworks_Big",
+    "spawn_location": "inside",
+    "price_fame": "10",
+    "price": "10.00",
+    "description": ""
+  },
+  {
+    "keyword": "boombox",
+    "name": "BoomBox",
+    "category": "Specials",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Boombox_Vicinity.png",
+    "buy_command": "/buyitem boombox",
+    "spawn_command": "#SpawnItem BP_BoomBox_01",
+    "spawn_location": "inside",
+    "price_fame": "60",
+    "price": "60.00",
+    "description": ""
+  }
+]

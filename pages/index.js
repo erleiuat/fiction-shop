@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from 'components/layout'
 import ItemList from 'components/catalog/itemList'
-import shopItems from 'public/shop_data/items.json'
+import shopItems from 'public/shop_data/items/'
 
 export default function Home({ articles }) {
   return (
@@ -25,7 +25,7 @@ export default function Home({ articles }) {
             <p className='mb-8 leading-relaxed'>
               Here you can look for items to buy on our Server. Need some help buying items? Check
               out{' '}
-              <Link href='/so_how_does_this_crap_work_tho'>
+              <Link href='/how_to_buy'>
                 <a className='text-sky-500 text-bold'>How & Where to buy</a>
               </Link>
               .

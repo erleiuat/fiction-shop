@@ -39,7 +39,7 @@ export default function Header() {
           </Link>
         </nav>
         <div className='w-full border-t border-gray-300 my-3 md:hidden'></div>
-        <Link href='/so_how_does_this_crap_work_tho'>
+        <Link href='/how_to_buy'>
           <a className='hover:text-sky-400 mb-2 md:mb-0'>How & Where to buy?</a>
         </Link>
       </div>

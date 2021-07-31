@@ -7,7 +7,7 @@ export default function WhereToBuy() {
   return (
     <Layout>
       <Head>
-        <title>Where to buy? - FictionShop</title>
+        <title>How to buy? - FictionShop</title>
         <meta name='description' content='Lemme tell you how that works'></meta>
       </Head>
 
@@ -19,22 +19,20 @@ export default function WhereToBuy() {
                 How & Where to buy
               </h1>
               <div className='text-gray-200'>
-                The FictionShop runs mainly automated by the FictionBot. In case
-                the bot is not working properly or under maintenance, the admins
-                and mods will take his position. There are also a few items
-                which can't be sold by the bot.{' '}
+                The FictionShop runs mainly automated by the FictionBot. In case the bot is not
+                working properly or under maintenance, the admins and mods will take his position.
+                There are also a few items which can't be sold by the bot.{' '}
                 <b className='text-bold'>
-                  Check the blue box on every article to see if you can get that
-                  item from FictionBot or an admin/mod.
+                  Check the blue box on every article to see if you can get that item from
+                  FictionBot or an admin/mod.
                 </b>{' '}
-                If you want to buy something you first need famepoints or money,
-                which you can find in the game while looting.
+                If you want to buy something you first need famepoints or money, which you can find
+                in the game while looting.
                 <br />
                 <br />
-                When buying items from FictionBot your Famepoints will be used
-                as currency. You can exchange the ingame-money for famepoints
-                with an admin/mod. To purchase items from FictionBot, you need
-                to be at the shop in the tradingzone. The <b>/buyitem</b>{' '}
+                When buying items from FictionBot your Famepoints will be used as currency. You can
+                exchange the ingame-money for famepoints with an admin/mod. To purchase items from
+                FictionBot, you need to be at the shop in the tradingzone. The <b>/buyitem</b>{' '}
                 command will also work in local-chat.
               </div>
             </div>
@@ -49,9 +47,8 @@ export default function WhereToBuy() {
           <div className='lg:w-4/5 mx-auto flex flex-wrap'>
             <div className='grid w-full lg:py-6 mb-6 lg:mb-0 items-center'>
               <div className='text-gray-200'>
-                You can find our shop in the tradingzone in B2. It's inside a
-                savezone where you and your vehicle are safe from damage, and
-                sales will only take place there.
+                You can find our shop in the tradingzone in B2. It's inside a savezone where you and
+                your vehicle are safe from damage, and sales will only take place there.
               </div>
             </div>
             <img

@@ -1,7 +1,7 @@
 import ItemList from 'components/catalog/itemList'
 import Layout from 'components/layout'
 import Head from 'next/head'
-import shopItems from 'public/shop_data/items.json'
+import shopItems from 'public/shop_data/items/'
 
 export default function Category({ articles }) {
   return (

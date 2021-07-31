@@ -1,0 +1,74 @@
+[
+  {
+    "keyword": "bandages",
+    "name": "Emergency Bandage Pack",
+    "category": "Pharmacy",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Bandage_pack.png",
+    "buy_command": "/buyitem bandages",
+    "spawn_command": "#SpawnItem Emergency_Bandage_Big",
+    "spawn_location": "inside",
+    "price_fame": "10",
+    "price": "10.00",
+    "description": "The Emergency Bandage Pack contains 5 single-use bandages."
+  },
+  {
+    "keyword": "vitamins",
+    "name": "Vitamin Pills (30)",
+    "category": "Pharmacy",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Pill_Jar_Vitamins.png",
+    "buy_command": "/buyitem vitamins",
+    "spawn_command": "#SpawnItem Vitamins_03",
+    "spawn_location": "inside",
+    "price_fame": "5",
+    "price": "5.00",
+    "description": ""
+  },
+  {
+    "keyword": "painkillers",
+    "name": "Painkiller Pills (30)",
+    "category": "Pharmacy",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Painkillers_03.png",
+    "buy_command": "/buyitem painkillers",
+    "spawn_command": "#SpawnItem Painkillers_03",
+    "spawn_location": "inside",
+    "price_fame": "5",
+    "price": "5.00",
+    "description": ""
+  },
+  {
+    "keyword": "hemo_dressing",
+    "name": "Hemostatic Dressing",
+    "category": "Pharmacy",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_HemoDressing.png",
+    "buy_command": "/buyitem hemo_dressing",
+    "spawn_command": "#SpawnItem Hemostatic_Dressing",
+    "spawn_location": "inside",
+    "price_fame": "8",
+    "price": "8.00",
+    "description": ""
+  },
+  {
+    "keyword": "tourniquet",
+    "name": "Tourniquet",
+    "category": "Pharmacy",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Tourniquet.png",
+    "buy_command": "/buyitem tourniquet",
+    "spawn_command": "#SpawnItem Tourniquet",
+    "spawn_location": "inside",
+    "price_fame": "10",
+    "price": "10.00",
+    "description": ""
+  },
+  {
+    "keyword": "pressure_dressing",
+    "name": "Pressure Dressing",
+    "category": "Pharmacy",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_PressureDressing.png",
+    "buy_command": "/buyitem pressure_dressing",
+    "spawn_command": "#SpawnItem Pressure_Dressing",
+    "spawn_location": "inside",
+    "price_fame": "10",
+    "price": "10.00",
+    "description": ""
+  }
+]
