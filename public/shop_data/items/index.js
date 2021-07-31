@@ -6,4 +6,18 @@ import tools from 'public/shop_data/items/tools.json'
 import food from 'public/shop_data/items/food.json'
 import pharmacy from 'public/shop_data/items/pharmacy.json'
 
-module.exports = [...specials, ...premium, ...vehicles, ...clothing, ...tools, ...food, ...pharmacy]
+function addDiscount(item) {
+  item.price_fame = Math.round(item.price_fame * 1.15)
+  item.price = item.price_fame + '.00'
+  return item
+}
+
+module.exports = [
+  ...specials.map(e => addDiscount(e)),
+  ...premium.map(e => addDiscount(e)),
+  ...vehicles.map(e => addDiscount(e)),
+  ...clothing.map(e => addDiscount(e)),
+  ...tools.map(e => addDiscount(e)),
+  ...food.map(e => addDiscount(e)),
+  ...pharmacy.map(e => addDiscount(e))
+]
