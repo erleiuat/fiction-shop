@@ -1,5 +1,29 @@
 [
   {
+    "keyword": "dirtbike",
+    "name": "Dirtbike",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Motorcycle_01_Red.png",
+    "buy_command": "/buyitem dirtbike",
+    "spawn_command": "#SpawnVehicle BP_Dirtbike_A",
+    "spawn_location": "outside",
+    "price_fame": "80",
+    "price": "80.00",
+    "description": ""
+  },
+  {
+    "keyword": "dirtbike_hellriders",
+    "name": "Dirtbike Hellriders",
+    "category": "Vehicles",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Motorcycle_01_HellRiders.png",
+    "buy_command": "/buyitem dirtbike_hellriders",
+    "spawn_command": "#SpawnVehicle BP_Dirtbike_Hellriders",
+    "spawn_location": "outside",
+    "price_fame": "130",
+    "price": "130.00",
+    "description": ""
+  },
+  {
     "keyword": "pickup_camo",
     "name": "Camo PickUp",
     "category": "Vehicles",
