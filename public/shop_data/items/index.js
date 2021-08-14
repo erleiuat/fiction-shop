@@ -7,7 +7,7 @@ import food from 'public/shop_data/items/food.json'
 import pharmacy from 'public/shop_data/items/pharmacy.json'
 
 function addDiscount(item) {
-  item.price_fame = Math.round(item.price_fame * 1.2)
+  item.price_fame = Math.round(item.price_fame * 1.35)
   item.price = item.price_fame + '.00'
   return item
 }
