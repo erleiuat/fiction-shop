@@ -10,7 +10,7 @@ import pharmacy from 'public/shop_data/items/pharmacy.json'
 function addDiscount(item) {
   item.price_fame = Math.round(item.price_fame * 1.4)
   item.price = item.price_fame + '.00'
-  item.buy_command = '!buyitem ' + item.key
+  item.buy_command = '!buyitem ' + item.keyword
   if (item.keyword) return item
 }
 
