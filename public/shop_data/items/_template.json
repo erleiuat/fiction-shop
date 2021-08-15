@@ -1,12 +1,10 @@
 {
   "keyword": "xxx",
-  "name": "xxx",
-  "category": "xxx",
-  "image": "https://scumfiction.com/shop_data/images/items/xxx.png",
-  "buy_command": "!buyitem xxx",
-  "spawn_command": "xxx",
-  "spawn_location": "inside",
   "price_fame": "xxx",
-  "price": "xxx.00",
-  "description": ""
+  "name": "xxxx",
+  "spawn_command": "xxx",
+  "image": "https://scumfiction.com/shop_data/images/items/xxx.png",
+  "description": "",
+  "spawn_location": "inside",
+  "category": "xxx"
 }

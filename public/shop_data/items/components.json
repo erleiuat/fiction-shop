@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "leather",
+    "name": "Leather",
+    "category": "Components",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Animal_skin.png",
+    "spawn_command": "#SpawnItem Animal_Skin",
+    "spawn_location": "inside",
+    "price_fame": "15",
+    "description": "Piece of animal skin, can be used to craft various items."
+  },
+  {
+    "keyword": "plank",
+    "name": "Wooden Plank",
+    "category": "Components",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Wooden_plank.png",
+    "spawn_command": "#SpawnItem Wooden_Plank",
+    "spawn_location": "inside",
+    "price_fame": "4",
+    "description": "Processed wood that is used for crafting and building."
+  },
+  {
+    "keyword": "log",
+    "name": "Wooden Log",
+    "category": "Components",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Wooden_Log_Vicinity_01.png",
+    "spawn_command": "#SpawnItem Wooden_Log_01",
+    "spawn_location": "inside",
+    "price_fame": "20",
+    "description": ""
+  },
+  {
+    "keyword": "barbed_wire",
+    "price_fame": "18",
+    "name": "Barbed Wire",
+    "spawn_command": "#SpawnItem Barbed_Wire",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Barbed_Wire.png",
+    "description": "Barbed wire is a type of steel fencing wire constructed with sharp edges or points arranged at intervals along the strands.",
+    "spawn_location": "inside",
+    "category": "Components"
+  },
+  {
+    "keyword": "batteries",
+    "price_fame": "20",
+    "name": "Batteries",
+    "spawn_command": "#SpawnItem Batteries",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Batteries.png",
+    "description": "An electric battery is a device consisting of one or more electrochemical cells with external connections provided to power electrical devices such as flashlights, smartphones, and electric cars etc.",
+    "spawn_location": "inside",
+    "category": "Components"
+  },
+  {
+    "keyword": "car_battery",
+    "price_fame": "50",
+    "name": "Car Battery",
+    "spawn_command": "#SpawnItem Car_Battery",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Car_Battery.png",
+    "description": "12 volt rechargeable battery that supplies electrical energy to a motor vehicle.",
+    "spawn_location": "inside",
+    "category": "Components"
+  },
+  {
+    "keyword": "metal_scrap",
+    "price_fame": "2",
+    "name": "Metal Scrap",
+    "spawn_command": "#SpawnItem Metal_Scrap_03",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Metal_Scrap_03.png",
+    "description": "Old used piece of metal. Can be reused for crafting other items.",
+    "spawn_location": "inside",
+    "category": "Components"
+  },
+  {
+    "keyword": "nails_box",
+    "price_fame": "40",
+    "name": "Box of Nails",
+    "spawn_command": "#SpawnItem Nails_Package_Box",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Box_of_Nails_Vicinity.png",
+    "description": "A pin-shaped object of metal for wood, called a treenail or \"trunnel\" which is used as a fastener.",
+    "spawn_location": "inside",
+    "category": "Components"
+  },
+  {
+    "keyword": "bolts_box",
+    "price_fame": "40",
+    "name": "Box of Bolts",
+    "spawn_command": "#SpawnItem Bolts_Package_Box",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Box_of_Bolts_Vicinity.png",
+    "description": "A bolt is a form of threaded fastener with an external male thread. Bolts are thus closely related to, and often confused with, screws.",
+    "spawn_location": "inside",
+    "category": "Components"
+  }
+]

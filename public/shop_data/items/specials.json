@@ -8,7 +8,6 @@
     "spawn_command": "#SpawnItem BP_Compass",
     "spawn_location": "inside",
     "price_fame": "10",
-    "price": "10.00",
     "description": ""
   },
   {
