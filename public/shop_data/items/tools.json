@@ -1,5 +1,65 @@
 [
   {
+    "keyword": "fishing_rod",
+    "price_fame": "40",
+    "name": "Fishing Rod",
+    "spawn_command": "#spawnitem BP_FishingRod",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_SM_SpincastRodAssembled.png",
+    "description": "",
+    "spawn_location": "inside",
+    "category": "Tools"
+  },
+  {
+    "keyword": "fishing_line",
+    "price_fame": "5",
+    "name": "0.50mm Nylon Line thick",
+    "spawn_command": "#spawnitem BP_FishingLine_4",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_FishingLine_05.png",
+    "description": "",
+    "spawn_location": "inside",
+    "category": "Tools"
+  },
+  {
+    "keyword": "fishing_floater",
+    "price_fame": "5",
+    "name": "Fishing Floater Pack",
+    "spawn_command": "#spawnitem BP_FishingFloaterPack2",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_FishingFloatPack2.png",
+    "description": "",
+    "spawn_location": "inside",
+    "category": "Tools"
+  },
+  {
+    "keyword": "fishing_reel",
+    "price_fame": "15",
+    "name": "Fishing Reel Pro",
+    "spawn_command": "#spawnitem BP_FishingReelPro",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_SM_ProSpincastReel.png",
+    "description": "",
+    "spawn_location": "inside",
+    "category": "Tools"
+  },
+  {
+    "keyword": "fishing_hook",
+    "price_fame": "10",
+    "name": "Fishing Hook Pack",
+    "spawn_command": "#spawnitem BP_FishingHookPack3",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_FishHookPackC.png",
+    "description": "",
+    "spawn_location": "inside",
+    "category": "Tools"
+  },
+  {
+    "keyword": "fishing_boilies",
+    "price_fame": "5",
+    "name": "Premium Boilies Pack",
+    "spawn_command": "#spawnitem BP_PremiumBoiliesPack",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_PremiumBoilies_Pack.png",
+    "description": "",
+    "spawn_location": "inside",
+    "category": "Tools"
+  },
+  {
     "keyword": "car_repair",
     "name": "Car-Repair Kit",
     "category": "Tools",
