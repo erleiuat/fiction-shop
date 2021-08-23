@@ -1,16 +1,36 @@
 [
-    {
-        "keyword": "fishing_rod",
-        "price_fame": "40",
-        "name": "Fishing Rod",
-        "spawn_command": "#spawnitem BP_FishingRod",
-        "image": "https://scumfiction.com/shop_data/images/items/ICO_SM_SpincastRodAssembled.png",
+      {
+        "keyword": "fishing_line1",
+        "price_fame": "1",
+        "name": "0.12mm Nylon Line thin",
+        "spawn_command": "#spawnitem BP_FishingLine_1",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_FishingLine_01.png",
         "description": "",
         "spawn_location": "inside",
         "category": "Fishing"
       },
       {
-        "keyword": "fishing_line",
+        "keyword": "fishing_line2",
+        "price_fame": "2",
+        "name": "0.18mm Nylon Line medium",
+        "spawn_command": "#spawnitem BP_FishingLine_2",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_FishingLine_02.png",
+        "description": "",
+        "spawn_location": "inside",
+        "category": "Fishing"
+      },
+      {
+        "keyword": "fishing_line3",
+        "price_fame": "4",
+        "name": "0.25mm Nylon Line thick",
+        "spawn_command": "#spawnitem BP_FishingLine_3",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_FishingLine_04.png",
+        "description": "",
+        "spawn_location": "inside",
+        "category": "Fishing"
+      },
+      {
+        "keyword": "fishing_line4",
         "price_fame": "5",
         "name": "0.50mm Nylon Line thick",
         "spawn_command": "#spawnitem BP_FishingLine_4",
@@ -20,8 +40,58 @@
         "category": "Fishing"
       },
       {
-        "keyword": "fishing_floater",
+        "keyword": "fishing_hook_a",
         "price_fame": "5",
+        "name": "Fishing Hook Pack A",
+        "spawn_command": "#spawnitem BP_FishingHookPack1",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_FishHookPackA.png",
+        "description": "",
+        "spawn_location": "inside",
+        "category": "Fishing"
+      },
+      {
+        "keyword": "fishing_hook_b",
+        "price_fame": "7",
+        "name": "Fishing Hook Pack B",
+        "spawn_command": "#spawnitem BP_FishingHookPack2",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_FishHookPackB.png",
+        "description": "",
+        "spawn_location": "inside",
+        "category": "Fishing"
+      },
+      {
+        "keyword": "fishing_hook_c",
+        "price_fame": "9",
+        "name": "Fishing Hook Pack C",
+        "spawn_command": "#spawnitem BP_FishingHookPack3",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_FishHookPackC.png",
+        "description": "",
+        "spawn_location": "inside",
+        "category": "Fishing"
+      },
+      {
+        "keyword": "fishing_hook_d",
+        "price_fame": "11",
+        "name": "Fishing Hook Pack D",
+        "spawn_command": "#spawnitem BP_FishingHookPack4",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_FishHookPackD.png",
+        "description": "",
+        "spawn_location": "inside",
+        "category": "Fishing"
+      },
+      {
+        "keyword": "fishing_floater1",
+        "price_fame": "4",
+        "name": "Fishing Floater Pack",
+        "spawn_command": "#spawnitem BP_FishingFloaterPack1",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_FishingFloatPack1.png",
+        "description": "",
+        "spawn_location": "inside",
+        "category": "Fishing"
+      },
+      {
+        "keyword": "fishing_floater2",
+        "price_fame": "6",
         "name": "Fishing Floater Pack",
         "spawn_command": "#spawnitem BP_FishingFloaterPack2",
         "image": "https://scumfiction.com/shop_data/images/items/ICO_FishingFloatPack2.png",
@@ -31,20 +101,20 @@
       },
       {
         "keyword": "fishing_reel",
-        "price_fame": "15",
-        "name": "Fishing Reel Pro",
-        "spawn_command": "#spawnitem BP_FishingReelPro",
-        "image": "https://scumfiction.com/shop_data/images/items/ICO_SM_ProSpincastReel.png",
+        "price_fame": "10",
+        "name": "Fishing Reel",
+        "spawn_command": "#spawnitem BP_FishingReel",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_FishingReel.png",
         "description": "",
         "spawn_location": "inside",
         "category": "Fishing"
       },
       {
-        "keyword": "fishing_hook",
-        "price_fame": "10",
-        "name": "Fishing Hook Pack",
-        "spawn_command": "#spawnitem BP_FishingHookPack3",
-        "image": "https://scumfiction.com/shop_data/images/items/ICO_FishHookPackC.png",
+        "keyword": "fishing_reel_pro",
+        "price_fame": "15",
+        "name": "Fishing Reel Pro",
+        "spawn_command": "#spawnitem BP_FishingReelPro",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_SM_ProSpincastReel.png",
         "description": "",
         "spawn_location": "inside",
         "category": "Fishing"
@@ -55,6 +125,36 @@
         "name": "Premium Boilies Pack",
         "spawn_command": "#spawnitem BP_PremiumBoiliesPack",
         "image": "https://scumfiction.com/shop_data/images/items/ICO_PremiumBoilies_Pack.png",
+        "description": "",
+        "spawn_location": "inside",
+        "category": "Fishing"
+      },
+      {
+        "keyword": "fishing_rod_blue",
+        "price_fame": "40",
+        "name": "Blue Fishing Rod",
+        "spawn_command": "#spawnitem BP_FishingRod",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_SM_SpincastRodAssembled.png",
+        "description": "",
+        "spawn_location": "inside",
+        "category": "Fishing"
+      },
+      {
+        "keyword": "fishing_rod_green",
+        "price_fame": "35",
+        "name": "Green Fishing Rod",
+        "spawn_command": "#spawnitem BP_FishingRod_A",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_SM_SpincastRodGreenAssembled.png",
+        "description": "",
+        "spawn_location": "inside",
+        "category": "Fishing"
+      },
+      {
+        "keyword": "fishing_rod_red",
+        "price_fame": "34",
+        "name": "Red Fishing Rod",
+        "spawn_command": "#spawnitem BP_FishingRod_B",
+        "image": "https://scumfiction.com/shop_data/images/items/ICO_SM_SpincastRodRedAssembled.png",
         "description": "",
         "spawn_location": "inside",
         "category": "Fishing"
