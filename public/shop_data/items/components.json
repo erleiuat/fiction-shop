@@ -41,11 +41,21 @@
   },
   {
     "keyword": "batteries",
-    "price_fame": "20",
+    "price_fame": "8",
     "name": "Batteries",
     "spawn_command": "#SpawnItem Batteries",
     "image": "https://scumfiction.com/shop_data/images/items/ICO_Batteries.png",
     "description": "An electric battery is a device consisting of one or more electrochemical cells with external connections provided to power electrical devices such as flashlights, smartphones, and electric cars etc.",
+    "spawn_location": "inside",
+    "category": "Components"
+  },
+  {
+    "keyword": "smart_battery",
+    "price_fame": "20",
+    "name": "Smartphone Battery",
+    "spawn_command": "#spawnitem Smartphone_Battery",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_Battery.png",
+    "description": "",
     "spawn_location": "inside",
     "category": "Components"
   },

@@ -1,7 +1,7 @@
 [
       {
         "keyword": "fishing_line1",
-        "price_fame": "1",
+        "price_fame": "2",
         "name": "0.12mm Nylon Line thin",
         "spawn_command": "#spawnitem BP_FishingLine_1",
         "image": "https://scumfiction.com/shop_data/images/items/ICO_FishingLine_01.png",
