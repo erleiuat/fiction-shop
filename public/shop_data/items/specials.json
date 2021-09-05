@@ -1,5 +1,25 @@
 [
   {
+    "keyword": "ghillie_jacket",
+    "price_fame": "350",
+    "name": "Ghillie Suit Jacket",
+    "spawn_command": "#spawnitem Ghillie_Suit_Jacket",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_GhillieJacket_Vicinty_Inv.png",
+    "description": "A ghillie suit is a type of camouflage clothing designed to resemble the background environment such as foliage, snow or sand. Typically, it is a net or cloth garment covered in loose strips of burlap (hessian), cloth, or twine, sometimes made to look like leaves and twigs, and optionally augmented with scraps of foliage from the area.",
+    "spawn_location": "inside",
+    "category": "Specials"
+  },
+  {
+    "keyword": "ghillie_pants",
+    "price_fame": "350",
+    "name": "Ghillie Suit Pants",
+    "spawn_command": "#spawnitem Ghillie_Suit_Pants",
+    "image": "https://scumfiction.com/shop_data/images/items/ICO_GhillePants_Inventory.png",
+    "description": "A ghillie suit is a type of camouflage clothing designed to resemble the background environment such as foliage, snow or sand. Typically, it is a net or cloth garment covered in loose strips of burlap (hessian), cloth, or twine, sometimes made to look like leaves and twigs, and optionally augmented with scraps of foliage from the area.",
+    "spawn_location": "inside",
+    "category": "Specials"
+  },
+  {
     "keyword": "compass",
     "name": "Military Compass",
     "category": "Specials",
