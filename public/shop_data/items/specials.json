@@ -1,7 +1,7 @@
 [
   {
     "keyword": "ghillie_jacket",
-    "price_fame": "350",
+    "price_fame": "225",
     "name": "Ghillie Suit Jacket",
     "spawn_command": "#spawnitem Ghillie_Suit_Jacket",
     "image": "https://scumfiction.com/shop_data/images/items/ICO_GhillieJacket_Vicinty_Inv.png",
@@ -11,7 +11,7 @@
   },
   {
     "keyword": "ghillie_pants",
-    "price_fame": "350",
+    "price_fame": "225",
     "name": "Ghillie Suit Pants",
     "spawn_command": "#spawnitem Ghillie_Suit_Pants",
     "image": "https://scumfiction.com/shop_data/images/items/ICO_GhillePants_Inventory.png",
